@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 5px;
+  font-size: 24px;
+  background-color: rgb(127, 127, 167)
+}
+
+h3 {
+  margin-left: auto;
+}
+
+.accordian .text {
+   display: none;
+   padding: 10px;
+}
+
+.accordian .active .text {
+   display: flex;
+   flex-direction: column;
+}
+
+.accordian .tab {
+  border: solid 1px rgb(158, 157, 157);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
