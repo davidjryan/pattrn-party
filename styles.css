@@ -1,34 +1,38 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 header {
   display: flex;
   align-items: center;
-  height: 40px;
-  padding: 5px;
-  font-size: 24px;
-  background-color: rgb(127, 127, 167)
+  height: 45px;
+  padding:  5px 30px 5px 30px;
+  background-color: #2F2235;
 }
 
+h2 {
+  color: #34D1D1;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#pattrn {
+  color: #D1D2D3;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+
 h3 {
+  color: #D1D2D3;
+  font-weight: 600;
+  font-size: 12px;
   margin-left: auto;
 }
 
-.accordian .text {
-   display: none;
-   padding: 10px;
-}
-
-.accordian .active .text {
-   display: flex;
-   flex-direction: column;
-}
-
-.accordian .tab {
-  border: solid 1px rgb(158, 157, 157);
-  margin: 5px;
-  padding: 5px;
-  border-radius: 3px;
+main {
+  padding: 30px 30px 0px 30px;
 }
