@@ -4,8 +4,16 @@ $(document).ready(function() {
 
     console.log($(this).attr("tabindex"))
     const activate = $(this).attr("tabindex")
-    $(`.tab${activate}`).toggleClass('active');
+    const hasActive = $(this).hasClass("active")
+
+    $(".tab").removeClass("active")
+    $(`.tab${activate}`).toggleClass("active");
   }
+
+  function imgClick() {
+    const hasActive = $('.below-header-section').toggleClass("active")
+  }
+  $(".mobile-header-img").on('click', imgClick);
   $(".tablinks").on('click', tabClick);
 })
 
